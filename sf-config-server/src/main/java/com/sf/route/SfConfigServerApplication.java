@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SfRegistryServerApplication {
+public class SfConfigServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SfRegistryServerApplication.class,args);
+        SpringApplication.run(SfConfigServerApplication.class,args);
     }
 }
