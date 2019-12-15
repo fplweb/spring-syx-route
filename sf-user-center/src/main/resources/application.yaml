@@ -1,11 +1,11 @@
 server:
-  port: 8083
+  port: 8085
   servlet:
     context-path: /
 eureka:
   client:
-    service-url:
+    serviceUrl:
       defaultZone: http://localhost:8081/eureka
 spring:
   application:
-    name: sf-api-gateway
+    name: sf-user-center
