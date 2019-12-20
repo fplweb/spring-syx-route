@@ -9,3 +9,14 @@ eureka:
 spring:
   application:
     name: sf-api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+      - id: sf-user-center
+        uri: lb://sf-user-center
+        predicates:
+        - Path=/user-center/**
