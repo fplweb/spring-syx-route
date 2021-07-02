@@ -15,7 +15,7 @@
     <version>${project.release.version}</version>
 
     <properties>
-        <elasticsearch.version>6.6.0</elasticsearch.version>
+        <elasticsearch.version>6.8.15</elasticsearch.version>
     </properties>
 
     <dependencies>
